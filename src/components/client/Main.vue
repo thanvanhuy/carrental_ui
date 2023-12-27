@@ -137,7 +137,7 @@ export default {
       this.loading = true;
       try {
         console.log(this.dataform.datetimehire)
-        //await handleSubmit(this.dataform);
+        await handleSubmit(this.dataform);
         this.dataform = [];
         this.loading = false;
       } catch (error) {
